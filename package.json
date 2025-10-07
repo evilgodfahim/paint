@@ -1,5 +1,5 @@
 {
-  "name": "prothomalo-rss",
+  "name": "pa",
   "version": "1.0.0",
   "description": "Automatically render Prothom Alo Opinion page to static HTML",
   "main": "render.js",
