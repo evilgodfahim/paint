@@ -3,7 +3,10 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  const url = "https://www.prothomalo.com/world"; 
+  const url = [
+    "https://www.prothomalo.com/world",
+    "https://www.prothomalo.com/business/world-business"
+   ]; 
   const outputFile = path.resolve(__dirname, "opinion.html"); // save directly in root
 
   const browser = await puppeteer.launch({ headless: true, args: ["--no-sandbox"] });
